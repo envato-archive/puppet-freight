@@ -1,3 +1,6 @@
 .*.sw?
 pkg
 spec/fixtures
+bin
+.rspec_system/
+.bundle/
