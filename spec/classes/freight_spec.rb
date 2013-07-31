@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'freight' do
   let(:title) { 'freight' }
 
-  describe "freight class without any parameters" do 
+  describe "freight class with default parameters" do
     let(:params) {{ :gpgkey => "nobody@example.com" }}
     let(:facts) {{
       :lsbdistcodename => "precise"
