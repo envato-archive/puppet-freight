@@ -1,16 +1,25 @@
 freight
 
-This is the freight module.
+Installs [freight](https://github.com/rcrowley/freight), "A modern take on the Debian archive"
+
+Usage
+-----
+
+```puppet
+class { 'freight':
+  gpgkey => 'me@example.com',
+}
+```
+
+All of the available options are documented in manifests/init.pp
 
 License
 -------
 
+MIT - see LICENSE
 
-Contact
+Contributing
 -------
 
-
-Support
--------
-
-Please log tickets and issues at our [Projects site](http://projects.example.com)
+Contributions are welcomed in the form of pull requests at
+https://github.com/envato/puppet-freight
