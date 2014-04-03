@@ -6,6 +6,7 @@ describe 'freight' do
   describe "freight class with default parameters" do
     let(:params) {{ :gpgkey => "nobody@example.com" }}
     let(:facts) {{
+      :lsbdistid => "Debian",
       :lsbdistcodename => "precise"
     }}
 
