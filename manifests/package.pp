@@ -6,7 +6,7 @@ class freight::package {
     release     => $::lsbdistcodename,
     repos       => 'main',
     key         => '7DF49CEF',
-    key_content => template('freight/rcrowley.gpg'),
+    key_source  => 'http://packages.rcrowley.org/keyring.gpg',
     include_src => false,
   }
 
